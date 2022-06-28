@@ -240,7 +240,6 @@ export class Node {
 export class Arrays {
     public static InitializeWithDefaultInstances<T>(length: number): Array<any> {
         let array: Array<any> = new Array<any>(length);
-        let c: { new(): T };
         for (let i: number = 0; i < length; i++) {
             array[+i] = [];
         }
