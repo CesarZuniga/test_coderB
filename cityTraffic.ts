@@ -202,7 +202,6 @@ export class Graph {
             resultOrder[+x].push(high);
         }
         // sorting our list
-        //this.sortResult(resultOrder);
         resultOrder = resultOrder.sort((a, b) => a[0] - b[0]);
         // loop to extract the integer values and convert back to a final string result
         for (let x: number = 0; x < resultOrder.length; x++) {
